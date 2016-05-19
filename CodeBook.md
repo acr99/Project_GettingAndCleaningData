@@ -19,95 +19,94 @@ Columns: Mean and standard deviation for each measured variable
 Lines: Measured variables for each activity and subject
 
 The following features are summarized in the dataset
-SubjectID: 1 to 30
-TrainingID: 1 to 6
-TrainingLabel: {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING
-, STANDING, LAYING}
+*SubjectID: 1 to 30
+*TrainingID: 1 to 6
+*TrainingLabel: {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING}
 
-Measured variables (means - contain "Mean" in their names; standard deviation contain "StDev" in their names)
--tBodyAccMeanX
--tBodyAccMeanY
--tBodyAccMeanZ
--tBodyAccStDevX
--tBodyAccStDevY
--tBodyAccStDevZ
--tGravityAccMeanX
--tGravityAccMeanY
--tGravityAccMeanZ
--tGravityAccStDevX
--tGravityAccStDevY
--tGravityAccStDevZ
--tBodyAccJerkMeanX
--tBodyAccJerkMeanY
--tBodyAccJerkMeanZ
--tBodyAccJerkStDevX
--tBodyAccJerkStDevY
--tBodyAccJerkStDevZ
--tBodyGyroMeanX
--tBodyGyroMeanY
--tBodyGyroMeanZ
--tBodyGyroStDevX
--tBodyGyroStDevY
--tBodyGyroStDevZ
--tBodyGyroJerkMeanX
--tBodyGyroJerkMeanY
--tBodyGyroJerkMeanZ
--tBodyGyroJerkStDevX
--tBodyGyroJerkStDevY
--tBodyGyroJerkStDevZ
--tBodyAccMagMean
--tBodyAccMagStDev
--tGravityAccMagMean
--tGravityAccMagStDev
--tBodyAccJerkMagMean
--tBodyAccJerkMagStDev
--tBodyGyroMagMean
--tBodyGyroMagStDev
--tBodyGyroJerkMagMean
--tBodyGyroJerkMagStDev
--fBodyAccMeanX
--fBodyAccMeanY
--fBodyAccMeanZ
--fBodyAccStDevX
--fBodyAccStDevY
--fBodyAccStDevZ
--fBodyAccMeanFreqX
--fBodyAccMeanFreqY
--fBodyAccMeanFreqZ
--fBodyAccJerkMeanX
--fBodyAccJerkMeanY
--fBodyAccJerkMeanZ
--fBodyAccJerkStDevX
--fBodyAccJerkStDevY
--fBodyAccJerkStDevZ
--fBodyAccJerkMeanFreqX
--fBodyAccJerkMeanFreqY
--fBodyAccJerkMeanFreqZ
--fBodyGyroMeanX
--fBodyGyroMeanY
--fBodyGyroMeanZ
--fBodyGyroStDevX
--fBodyGyroStDevY
--fBodyGyroStDevZ
--fBodyGyroMeanFreqX
--fBodyGyroMeanFreqY
--fBodyGyroMeanFreqZ
--fBodyAccMagMean
--fBodyAccMagStDev
--fBodyAccMagMeanFreq
--fBodyBodyAccJerkMagMean
--fBodyBodyAccJerkMagStDev
--fBodyBodyAccJerkMagMeanFreq
--fBodyBodyGyroMagMean
--fBodyBodyGyroMagStDev
--fBodyBodyGyroMagMeanFreq
--fBodyBodyGyroJerkMagMean
--fBodyBodyGyroJerkMagStDev
--fBodyBodyGyroJerkMagMeanFreq
--AngletBodyAccMeanGravity
--AngletBodyAccJerkMeanGravityMean
--AngletBodyGyroMeanGravityMean
--AngletBodyGyroJerkMeanGravityMean
--AngleXGravityMean
--AngleYGravityMean
--AngleZGravityMean
+*Measured variables (means - contain "Mean" in their names; standard deviation contain "StDev" in their names)
+	*tBodyAccMeanX
+	*tBodyAccMeanY
+	*tBodyAccMeanZ
+	*tBodyAccStDevX
+	*tBodyAccStDevY
+	*tBodyAccStDevZ
+	*tGravityAccMeanX
+	*tGravityAccMeanY
+	*tGravityAccMeanZ
+	*tGravityAccStDevX
+	*tGravityAccStDevY
+	*tGravityAccStDevZ
+	*tBodyAccJerkMeanX
+	*tBodyAccJerkMeanY
+	*tBodyAccJerkMeanZ
+	*tBodyAccJerkStDevX
+	*tBodyAccJerkStDevY
+	*tBodyAccJerkStDevZ
+	*tBodyGyroMeanX
+	*tBodyGyroMeanY
+	*tBodyGyroMeanZ
+	*tBodyGyroStDevX
+	*tBodyGyroStDevY
+	*tBodyGyroStDevZ
+	*tBodyGyroJerkMeanX
+	*tBodyGyroJerkMeanY
+	*tBodyGyroJerkMeanZ
+	*tBodyGyroJerkStDevX
+	*tBodyGyroJerkStDevY
+	*tBodyGyroJerkStDevZ
+	*tBodyAccMagMean
+	*tBodyAccMagStDev
+	*tGravityAccMagMean
+	*tGravityAccMagStDev
+	*tBodyAccJerkMagMean
+	*tBodyAccJerkMagStDev
+	*tBodyGyroMagMean
+	*tBodyGyroMagStDev
+	*tBodyGyroJerkMagMean
+	*tBodyGyroJerkMagStDev
+	*fBodyAccMeanX
+	*fBodyAccMeanY
+	*fBodyAccMeanZ
+	*fBodyAccStDevX
+	*fBodyAccStDevY
+	*fBodyAccStDevZ
+	*fBodyAccMeanFreqX
+	*fBodyAccMeanFreqY
+	*fBodyAccMeanFreqZ
+	*fBodyAccJerkMeanX
+	*fBodyAccJerkMeanY
+	*fBodyAccJerkMeanZ
+	*fBodyAccJerkStDevX
+	*fBodyAccJerkStDevY
+	*fBodyAccJerkStDevZ
+	*fBodyAccJerkMeanFreqX
+	*fBodyAccJerkMeanFreqY
+	*fBodyAccJerkMeanFreqZ
+	*fBodyGyroMeanX
+	*fBodyGyroMeanY
+	*fBodyGyroMeanZ
+	*fBodyGyroStDevX
+	*fBodyGyroStDevY
+	*fBodyGyroStDevZ
+	*fBodyGyroMeanFreqX
+	*fBodyGyroMeanFreqY
+	*fBodyGyroMeanFreqZ
+	*fBodyAccMagMean
+	*fBodyAccMagStDev
+	*fBodyAccMagMeanFreq
+	*fBodyBodyAccJerkMagMean
+	*fBodyBodyAccJerkMagStDev
+	*fBodyBodyAccJerkMagMeanFreq
+	*fBodyBodyGyroMagMean
+	*fBodyBodyGyroMagStDev
+	*fBodyBodyGyroMagMeanFreq
+	*fBodyBodyGyroJerkMagMean
+	*fBodyBodyGyroJerkMagStDev
+	*fBodyBodyGyroJerkMagMeanFreq
+	*AngletBodyAccMeanGravity
+	*AngletBodyAccJerkMeanGravityMean
+	*AngletBodyGyroMeanGravityMean
+	*AngletBodyGyroJerkMeanGravityMean
+	*AngleXGravityMean
+	*AngleYGravityMean
+	*AngleZGravityMean
